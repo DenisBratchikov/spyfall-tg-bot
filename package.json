@@ -4,6 +4,7 @@
   "description": "Spyfall game telegram bot. The main difference from the original game is in the mode settings.",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "start:dev": "nodemon src/index.js"
   },
   "keywords": [
@@ -19,5 +20,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "17.0",
+    "npm": "8.19.2"
   }
 }

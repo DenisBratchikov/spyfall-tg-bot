@@ -1,0 +1,23 @@
+{
+  "name": "spyfall-tg-bot",
+  "version": "1.0.0",
+  "description": "Spyfall game telegram bot. The main difference from the original game is in the mode settings.",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "spyfall",
+    "game",
+    "telegram bot"
+  ],
+  "author": "Denis Bratchikov",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.8.3",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -6,7 +6,7 @@ const {
 } = require('./commands');
 const { COMMON_ERROR_MSG } = require('./constants');
 
-const token = '';
+const token = process.env.TG_TOKEN;
 
 const bot = new TelegramBot(token, { polling: true });
 
